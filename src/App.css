@@ -6,6 +6,10 @@
   --gray: #2e232e;
 }
 
+.container {
+  margin-bottom: 20px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   padding: 0 72px;
@@ -28,7 +32,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   max-width: 1290px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   height: 72px;
 }
 
@@ -37,4 +41,33 @@ nav ul {
   list-style-type: none;
   gap: 24px;
 
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+  gap: 20px;
+}
+
+.hero h1 {
+  font-weight: 100px;
+  line-height: -1;
+  font-size: 52px;
+}
+
+.hero p {
+  font-weight: 400px;
+  color: var(--gray);
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
+
+.brand-icons {
+  display: flex;
+  gap: 20px;
 }
